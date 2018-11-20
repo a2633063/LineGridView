@@ -27,6 +27,14 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.ic_filter_1_black_24dp,
                 R.drawable.ic_filter_2_black_24dp,
                 R.drawable.ic_filter_3_black_24dp,
+                R.drawable.ic_filter_4_black_24dp,
+                R.drawable.ic_filter_5_black_24dp,
+                R.drawable.ic_filter_6_black_24dp,
+                R.drawable.ic_filter_7_black_24dp,
+                R.drawable.ic_filter_8_black_24dp,
+                R.drawable.ic_filter_9_black_24dp,
+                R.drawable.ic_filter_1_black_24dp,
+                R.drawable.ic_filter_2_black_24dp,
                 R.drawable.ic_filter_3_black_24dp,
                 R.drawable.ic_filter_4_black_24dp,
                 R.drawable.ic_filter_5_black_24dp,
@@ -35,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.ic_filter_8_black_24dp,
                 R.drawable.ic_filter_9_black_24dp,
         };
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 14; i++) {
             tempHashMap.put("ItemImage", image[i]);
             tempHashMap.put("ItemText", "图片" + i);
             sourceList.add(tempHashMap);
